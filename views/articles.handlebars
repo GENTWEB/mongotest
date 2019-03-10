@@ -1,0 +1,13 @@
+<div class="jumbotron col-md-12 shadow-lg">
+    <h1>Recent NPR arts</h1>
+        {{#each article}}
+        <div class="jumbotron col-md">
+            <h3>
+                {{this.title}}
+            </h3>
+            <p>
+                <a href="{{this.link}}">Read more</a>
+            </p>
+            </div>
+        {{/each}}
+</div>
